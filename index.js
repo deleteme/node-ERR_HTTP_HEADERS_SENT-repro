@@ -16,7 +16,7 @@ app.get('/throw2', function (req, res) {
 })
 
 app.get('/throw3', function (req, res) {
-  res.send('This is a basic Example for Express.js by TUTORIALKART')
+  res.send('set cookie after res.send() call')
   res.cookie('chocolate', 'chip')
 })
 
